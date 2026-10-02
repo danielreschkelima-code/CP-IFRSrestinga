@@ -21,3 +21,25 @@ Nas duas linguagens o processamento desse programa vai ser igual. Nós vamos faz
 - **Em Python:** usamos o comando `print()` para imprimir coisas no terminal. Vamos colocar dentro do parênteses o que queremos imprimir. 
 - **Em JavaScript:** usamos o comando `console.log()` para também imprimir coisas no terminal. Também vamos colocar dentro dos parênteses o que queremos imprimir.
 
+---
+E daí, em cada linguagem, o programa vai ficar assim:
+
+## PYTHON
+```py
+dataUsuario = int(input("Digite seu ano de nascimento: "))
+idade = 2026 - dataUsuario
+print(idade)
+```
+
+## JAVASCRIPT
+```js
+const readline = require('readline-sync');
+const dataUsuario = parseInt(readline.question("Digite seu ano de nascimento: "));
+idade = 2026 - dataUsuario;
+console.log(idade);
+```
+
+---
+
+Nas duas linguagens, o resultado será o mesmo, porque usamos a mesma lógica, só utilizamos palavras e termos diferentes. É como se fossemos explicar para uma pessoa bilíngue em inglês e português. Ela entenderia das duas formas. 
+Observe que em python atribuidos de cara o valor d
