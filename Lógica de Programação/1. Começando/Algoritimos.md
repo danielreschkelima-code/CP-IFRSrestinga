@@ -15,7 +15,7 @@ _5. Coloque o bolo na forma._
    
 _6. Coloque o bolo no forno._
 
-E vai funcionar, porque a criança entende o contexto e consegue perguntar pra ti algo se ela não souber. A mesma coisa nós vamos tentar fazer com os computadores. Só que eles não conseguem perguntar e em vez de falar em português, falam em uma língua que eles entendem: em uma linguagem de programação. A lógica do português e desses tipos de linguagem é o mesma, mas o computador não consegue entender muito bem o português. Por quê? Porque computadores são extremamente burros: eles obedecem exatamente o que tu dizer para eles obedecer e não suportam ambiguidades pois não conseguem escolher entre A ou B se tu não dizer qual escolher.
+E vai funcionar, porque a criança entende o contexto e consegue perguntar pra ti algo se ela não souber. A mesma coisa nós vamos tentar fazer com os computadores. Só que eles não conseguem perguntar e em vez de falar em português, falam em uma língua que eles entendem: em uma linguagem de programação. A lógica do português e desses tipos de linguagem é a mesma, mas o computador não consegue entender muito bem o português. Por quê? Porque computadores são extremamente burros: eles obedecem exatamente o que tu dizer para eles obedecer e não suportam ambiguidades pois não conseguem escolher entre A ou B se tu não dizer qual escolher.
 
 Acontece que nós falamos ambiguidades o tempo inteiro em português. Por isso, aquela receita não vai funcionar para o computador. Leia ela de novo.
 
