@@ -1,27 +1,27 @@
 # Entrada de Saída de Dados
-Pra conversar com o computador precisamos falar com ele, e ele precisa falar com a gente.
-- **Quando ele falar com a gente:** estamos fazendo uma saída de dados. Ele pode mandar um texto pro terminal. Imprimir algum valor na tela. Imprimir alguma mensagem em uma impressora...
+Para conversar com o computador precisamos falar com ele, e ele precisa falar com a gente.
+- **Quando ele falar com a gente:** estamos fazendo uma saída de dados. Ele pode mandar um texto pro terminal, imprimir algum valor na tela, imprimir alguma mensagem em uma impressora...
 - **Ao falarmos com ele:** estamos fazendo uma entrada de dados. Isso pode ser muitas coisas, como o clique de um mouse, um áudio ou um texto digitado pelo teclado. Nós, em todo o curso, só vamos trabalhar com esse último.
 
-Logicamente é natural pensar que um algoratimo não comece com o computador falando, e sim com a gente, pois, de novo, o computador só segue coisas e nós estamos interessados em saber no que vai dar depois dele seguir todas essas coisas. Asssim, também é natural pensarmos em um programa de computador a seguinte estrutura sequencial:
-1. **Entrada de dados:** nós informamos algo pro computador. Ex: sua data de nascimento. 
-2. **Processamento** ele realiza cálculos em cima dessa entrada. Ex: a diferença entre a data atual e a data de quando tu nasceu.
-3. **Saída de dados:** ele imprime os resultados dos cálculos. Ex: a tua idade.
+Logicamente, é natural pensar que um algoratimo não comece com o computador falando, mas sim com a gente, pois, de novo, o computador só segue coisas e nós estamos interessados em saber no que vai acontecer depois dele seguir todas essas coisas. Assim, também é natural pensarmos em um programa de computador a seguinte sequência:
+1. **Entrada de dados:** nós informamos algo pro computador. **Ex:** sua data de nascimento. 
+2. **Processamento** ele realiza cálculos em cima dessa entrada. **Ex:** a diferença entre a data atual e a data de quando tu nasceu.
+3. **Saída de dados:** ele imprime os resultados dos cálculos. **Ex:** a tua idade.
 
 Vamos fazer exatamente o programa dos exemplos agora, mostrando como conversar com o computador seguindo cada linguagem de programação.
 
 ## ENTRADA DE DADOS
-- **Em Python:** recebemos dados com o comando `input()`. O input é uma função que recebe um dado digitado pelo teclado. Dentro do parênteses é possível colocar um pequeno texto que aparecerá na tela e, logo no final dele, o usuário vai poder enviar o texto do teclado
-- **Em JavaScript:** recebemos dados com uma biblioteca do node chamada readline. Uma biblioteca é um conjunto de instruções prontas para um computador. Tu pode pensar numa biblioteca como uma coleção de algoritmos já feitos por outra pessoa. Para importar a biblioteca nós usamos o comando `require()`. E dessa biblioteca, nós tiramos o comando `readline.question()` que daí sim funciona que nem o python e atribui o texto que o usuário digitar.
+- **Em Python:** recebemos dados com o comando `input()`. O input é uma função que recebe um dado digitado pelo teclado. Dentro do parênteses é possível colocar um pequeno texto que aparecerá na tela e, logo no final dele, o usuário vai poder enviar o texto do teclado pressionando enter.
+- **Em JavaScript:** recebemos dados com uma biblioteca do Node chamada readline. Uma biblioteca é um conjunto de instruções prontas para um computador. Tu pode pensar numa biblioteca como uma coleção de algoritmos já feitos por outra pessoa. Para importar a biblioteca, nós usamos o comando `require()`. E dessa biblioteca, nós tiramos o comando `readline.question()`, que daí sim funciona que nem o Python e atribui o texto que o usuário digitar.
 
-![NOTE]
-É importante notar que as duas entradas entram como texto texto (simbólos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador consegui fazer os cálculos.
+[!NOTE]
+É importante notar que as duas entradas entram como texto, texto (símbolos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador conseguir fazer os cálculos.
 
 ## PROCESSAMENTO
-Nas duas linguagens o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa váriavel para depois imprimir isso na tela. 
+Nas duas linguagens, o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa váriavel para depois imprimir isso na tela. 
 
 ## SAÍDA DE DADOS
-- **Em Python:** usamos o comando `print()` para imprimir coisas no terminal. Vamos colocar dentro do parênteses o que queremos imprimir. 
+- **Em Python:** usamos o comando `print()` para imprimir coisas no terminal. Vamos colocar dentro dos parênteses o que queremos imprimir. 
 - **Em JavaScript:** usamos o comando `console.log()` para também imprimir coisas no terminal. Também vamos colocar dentro dos parênteses o que queremos imprimir.
 
 ---
@@ -35,7 +35,7 @@ dataUsuario = int(input("Digite seu ano de nascimento: ")) # Aqui nós fazemos 3
 idade = 2026 - dataUsuario # Fazemos a diferença entre 2026 e a dataUsuario para saber a idade do usuário e guardamos esse valor na variável idade para imprimir isso depois. 
 print(idade) # Imprimimos o valor da váriavel idade.
 ```
-Teste isso no seu Python digitando qualquer ano de nascimento.
+Teste isso no seu Python digitando qualquer ano.
 
 ## JAVASCRIPT
 ```js
@@ -46,17 +46,17 @@ let dataUsuario = parseInt(readline.question("Digite seu ano de nascimento: "));
 let idade = 2026 - dataUsuario; // Fazemos a diferença entre 2026 e a dataUsuario para saber a idade do usuário e guardamos esse valor na variável idade para imprimir isso depois. 
 console.log(idade); // Imprimimos o valor da váriavel idade.
 ```
-Teste isso no seu JS digitando qualquer ano de nascimento.
+Teste isso no seu JS digitando qualquer ano.
 
 ---
 
-Observe que nas duas linguagens, o resultado será o mesmo, porque usamos a mesma lógica, só utilizamos palavras e termos diferentes. É como se fossemos explicar para uma pessoa bilíngue o mesmo algoritimo em inglês e português. Ela entenderia das duas formas, só muda o jeito como as coisas são pronunciadas.
+Observe que nas duas linguagens, o resultado será o mesmo, porque usamos a **mesma lógica**, só utilizamos palavras e termos diferentes. É como se fossemos explicar para uma pessoa bilíngue o mesmo algoritimo em inglês e português. Ela entenderia das duas formas, só muda o jeito como as coisas são captadas.
 
-Observe também que em Python quando declaramos uma variável (escrevemos elas pela primeira vez) nós não precisamos dizer nada, ele já aceita de primeira. Em JS, não. Nele, nós precisamos informar com o comando `let`, para indicar ao computador que estamos falando de uma variável nova. Vão existir outros jeitos de declarar uma variável JS e a utilidade do let vai fazer bastante sentido.
+Observe também que em Python, quando declaramos uma variável (escrevemos ela pela primeira vez), nós não precisamos dizer nada, ele já aceita de primeira. Em JS, não. Nele, nós precisamos informar com o comando `let` para indicar ao computador que estamos falando de uma variável nova. Vão existir outros jeitos de declarar uma variável em JS e a utilidade do `let` vai fazer bastante sentido.
 
-Por último, note que Python já vem com o comando input pronto, nós só precisamos usá-lo. E, de novo, em JS não, nós precisamos puxar esse comando de uma grande coleções de códigos (de uma biblioteca pronta) para usar ele.
+Por último, note que o Python já vem com o comando `input()` pronto, nós só precisamos usá-lo. E, de novo, em JS não. Nele, nós precisamos puxar esse comando de uma grande coleções de códigos (de uma biblioteca pronta) para usá-lo.
 
-Essas situações vão ocorrer cotidianamente no curso, pois Python é uma linguagem mais próxima do que os seres humanos falam e JS mais próxima do que os computadores dizem. Muitas vezes Python vai ter uma escrita mais fluída e menos verbal. Nós vamos precisar dizer menos coisas pro computador porque ele vai assumir por padrão aquilo que não estamos dizendo. Claro, isso tem um preço em processamento. Fica mais custoso pro computador entender a gente. Em síntese:
+Essas situações vão ocorrer cotidianamente no curso, pois Python é uma linguagem mais próxima do que os seres humanos falam e JS mais próxima do que os computadores conversam. Muitas vezes Python vai ter uma escrita mais fluída e menos verbal. Nós vamos precisar dizer menos coisas pro computador porque ele vai assumir por padrão aquilo que não estamos dizendo. Claro, isso tem um preço em processamento - fica mais custoso pro computador entender a gente. Em síntese:
 | Característica | Python | JavaScript |
 | :--- | :--- | :--- |
 | **Proximidade** | Mais próxima do ser humano | Mais próxima do computador |
