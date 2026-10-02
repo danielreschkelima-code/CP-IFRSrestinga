@@ -3,17 +3,17 @@ Um algoritmo é uma **sequência de instruções lógicas, finitas e bem definid
 
 E aí entra uma coisa importante: **como nós instruímos alguém a fazer algo**? Pense, como instruir uma criança a fazer um bolo? Como fazer um algoritimo pra uma criança fazer um bolo? Podemos dizer algo simples para ela. Algo como:
 
-_1. Pegue os ingredientes.
+_1. Pegue os ingredientes._
 
-2. Pegue os instrumentos.
+_2. Pegue os instrumentos._
 
-3. Pré-aqueça o forno em 180ºC.
+_3. Pré-aqueça o forno em 180ºC._
    
-4. Misture todos os ingredientes.
+_4. Misture todos os ingredientes._
    
-5. Coloque o bolo na forma.
+_5. Coloque o bolo na forma._
    
-6. Coloque o bolo no forno_
+_6. Coloque o bolo no forno._
 
 E vai funcionar, porque a criança entende o contexto e consegue perguntar pra ti algo se ela não souber. A mesma coisa nós vamos tentar fazer com os computadores. Só que eles não conseguem perguntar e em vez de falar em português, falam em uma língua que eles entendem: em uma linguagem de programação. A lógica do português e desses tipos de linguagem é o mesma, mas o computador não consegue entender muito bem o português. Por quê? Porque computadores são extremamente burros: eles obedecem exatamente o que tu dizer para eles obedecer e não suportam ambiguidades pois não conseguem escolher entre A ou B se tu não dizer qual escolher.
 
