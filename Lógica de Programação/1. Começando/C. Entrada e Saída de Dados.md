@@ -14,8 +14,8 @@ Vamos fazer exatamente o programa dos exemplos agora, mostrando como conversar c
 - **Em Python:** recebemos dados com o comando `input()`. O input é uma função que recebe um dado digitado pelo teclado. Dentro do parênteses é possível colocar um pequeno texto que aparecerá na tela e, logo no final dele, o usuário vai poder enviar o texto do teclado pressionando enter.
 - **Em JavaScript:** recebemos dados com uma biblioteca do Node chamada readline. Uma biblioteca é um conjunto de instruções prontas para um computador. Tu pode pensar numa biblioteca como uma coleção de algoritmos já feitos por outra pessoa. Para importar a biblioteca, nós usamos o comando `require()`. E dessa biblioteca, nós tiramos o comando `readline.question()`, que daí sim funciona que nem o Python e atribui o texto que o usuário digitar.
 
-[!NOTE]
-É importante notar que as duas entradas entram como texto, texto (símbolos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador conseguir fazer os cálculos.
+> [!NOTE]
+> É importante notar que as duas entradas entram como texto, texto (símbolos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador conseguir fazer os cálculos.
 
 ## PROCESSAMENTO
 Nas duas linguagens, o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa váriavel para depois imprimir isso na tela. 
