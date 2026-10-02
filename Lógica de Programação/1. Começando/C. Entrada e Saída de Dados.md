@@ -11,8 +11,11 @@ Logicamente é natural pensar que um algoratimo não comece com o computador fal
 Vamos fazer exatamente o programa dos exemplos agora, mostrando como conversar com o computador seguindo cada linguagem de programação.
 
 ## ENTRADA DE DADOS
-- **Em Python:** recebemos dados com o comando `input()`. O input é uma função que diz algo e já recen
-- **Em JavaScript:** recebemos dados importando uma .
+- **Em Python:** recebemos dados com o comando `input()`. O input é uma função que recebe um dado digitado pelo teclado. Dentro do parênteses é possível colocar um pequeno texto que aparecerá na tela e, logo no final dele, o usuário vai poder enviar o texto do teclado
+- **Em JavaScript:** recebemos dados com uma biblioteca do node chamada readline. Uma biblioteca é um conjunto de instruções prontas para um computador. Tu pode pensar numa biblioteca como uma coleção de algoritmos já feitos por outra pessoa. Para importar a biblioteca nós usamos o comando `require()`. E dessa biblioteca, nós tiramos o comando `readline.question()` que daí sim funciona que nem o python e atribui o texto que o usuário digitar.
+
+![NOTE]
+É importante notar que as duas entradas entram como texto texto (simbólos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador consegui fazer os cálculos.
 
 ## PROCESSAMENTO
 Nas duas linguagens o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa váriavel para depois imprimir isso na tela. 
@@ -26,20 +29,52 @@ E daí, em cada linguagem, o programa vai ficar assim:
 
 ## PYTHON
 ```py
-dataUsuario = int(input("Digite seu ano de nascimento: "))
-idade = 2026 - dataUsuario
-print(idade)
+# Para fazer um comentário em Python utilizamos uma # no ínicio da linha. Comentários são textos ignorados pelo interpretador. 
+
+dataUsuario = int(input("Digite seu ano de nascimento: ")) # Aqui nós fazemos 3 coisas. O input() para receber os dados, que vem por padrão em texto. O int() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na váriavel dataUsuario.
+idade = 2026 - dataUsuario # Fazemos a diferença entre 2026 e a dataUsuario para saber a idade do usuário e guardamos esse valor na variável idade para imprimir isso depois. 
+print(idade) # Imprimimos o valor da váriavel idade.
 ```
+Teste isso no seu Python digitando qualquer ano de nascimento.
 
 ## JAVASCRIPT
 ```js
-const readline = require('readline-sync');
-const dataUsuario = parseInt(readline.question("Digite seu ano de nascimento: "));
-idade = 2026 - dataUsuario;
-console.log(idade);
+// Para fazer um comentário em JS utilizamos duas / no ínicio da linha. Comentários são textos ignorados pelo interpretador. 
+
+let readline = require('readline-sync'); // Importamos a biblioteca readline-sync e atribuimos a ele o seu nome simplificado: readline. Ela vem por padrão no Node. Dela, vamos usar o algoritimo question. Por isso há um ponto entre readline e question. É a question da readline.
+let dataUsuario = parseInt(readline.question("Digite seu ano de nascimento: ")); // Aqui nós fazemos 3 coisas. O question() para receber os dados, que vem por padrão em texto. O parseInt() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na váriavel dataUsuario.
+let idade = 2026 - dataUsuario; // Fazemos a diferença entre 2026 e a dataUsuario para saber a idade do usuário e guardamos esse valor na variável idade para imprimir isso depois. 
+console.log(idade); // Imprimimos o valor da váriavel idade.
 ```
+Teste isso no seu JS digitando qualquer ano de nascimento.
 
 ---
 
-Nas duas linguagens, o resultado será o mesmo, porque usamos a mesma lógica, só utilizamos palavras e termos diferentes. É como se fossemos explicar para uma pessoa bilíngue em inglês e português. Ela entenderia das duas formas. 
-Observe que em python atribuidos de cara o valor d
+Observe que nas duas linguagens, o resultado será o mesmo, porque usamos a mesma lógica, só utilizamos palavras e termos diferentes. É como se fossemos explicar para uma pessoa bilíngue o mesmo algoritimo em inglês e português. Ela entenderia das duas formas, só muda o jeito como as coisas são pronunciadas.
+
+Observe também que em Python quando declaramos uma variável (escrevemos elas pela primeira vez) nós não precisamos dizer nada, ele já aceita de primeira. Em JS, não. Nele, nós precisamos informar com o comando `let`, para indicar ao computador que estamos falando de uma variável nova. Vão existir outros jeitos de declarar uma variável JS e a utilidade do let vai fazer bastante sentido.
+
+Por último, note que Python já vem com o comando input pronto, nós só precisamos usá-lo. E, de novo, em JS não, nós precisamos puxar esse comando de uma grande coleções de códigos (de uma biblioteca pronta) para usar ele.
+
+Essas situações vão ocorrer cotidianamente no curso, pois Python é uma linguagem mais próxima do que os seres humanos falam e JS mais próxima do que os computadores dizem. Muitas vezes Python vai ter uma escrita mais fluída e menos verbal. Nós vamos precisar dizer menos coisas pro computador porque ele vai assumir por padrão aquilo que não estamos dizendo. Claro, isso tem um preço em processamento. Fica mais custoso pro computador entender a gente. Em síntese:
+| Característica | Python | JavaScript |
+| :--- | :--- | :--- |
+| **Proximidade** | Mais próxima do ser humano | Mais próxima do computador |
+| **Estilo de Escrita** | Fluida, enxuta e menos verbosa | Mais detalhada e explícita |
+| **Autonomia do Código** | Assume comportamentos por padrão | Exige instruções mais diretas |
+| **Custo de Processamento** | Maior (exige mais esforço da máquina) | Menor (mais direto para o computador) |
+
+---
+
+## RESUMO DOS COMANDOS
+| Python | JavaScript | Funcionamento na Língua Humana |
+| :--- | :--- | :--- |
+| `#` | `//` | **Comentário:** Escreve um texto que é ignorado pelo computador, usado apenas para explicar o código. |
+| `input()` | `readline.question()` | **Entrada de dados:** Exibe uma mensagem na tela e captura o texto digitado pelo usuário. |
+| *(Nativo / não precisa)* | `require()` | **Importar biblioteca:** Puxa e carrega um pacote de algoritimos prontos feitos por outras pessoas. |
+| `int()` | `parseInt()` | **Conversão de tipo:** Transforma os símbolos de um texto que contém números em um número inteiro para fazer cálculos. |
+| *(Atribuição direta)* | `let` | **Declaração de variável:** Avisa ao computador que estamos criando uma variável nova para guardar dados na memória. |
+| `print()` | `console.log()` | **Saída de dados:** Imprime e exibe textos, valores ou resultados na tela do terminal. |
+
+---
+Daniel Reschke, 2 de outubro de 2026.
