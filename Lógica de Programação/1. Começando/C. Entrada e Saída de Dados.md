@@ -3,7 +3,7 @@ Para conversar com o computador precisamos falar com ele, e ele precisa falar co
 - **Quando ele falar com a gente:** estamos fazendo uma saída de dados. Ele pode mandar um texto pro terminal, imprimir algum valor na tela, imprimir alguma mensagem em uma impressora...
 - **Ao falarmos com ele:** estamos fazendo uma entrada de dados. Isso pode ser muitas coisas, como o clique de um mouse, um áudio ou um texto digitado pelo teclado. Nós, em todo o curso, só vamos trabalhar com esse último.
 
-Logicamente, é natural pensar que um algoratimo não comece com o computador falando, mas sim com a gente, pois, de novo, o computador só segue coisas e nós estamos interessados em saber no que vai acontecer depois dele seguir todas essas coisas. Assim, também é natural pensarmos em um programa de computador a seguinte sequência:
+Logicamente, é natural pensar que um algoritimo não comece com o computador falando, mas sim com a gente, pois, de novo, o computador só segue coisas e nós estamos interessados em saber no que vai acontecer depois dele seguir todas essas coisas. Assim, também é natural pensarmos em um programa de computador a seguinte sequência:
 1. **Entrada de dados:** nós informamos algo pro computador. **Ex:** sua data de nascimento. 
 2. **Processamento** ele realiza cálculos em cima dessa entrada. **Ex:** a diferença entre a data atual e a data de quando tu nasceu.
 3. **Saída de dados:** ele imprime os resultados dos cálculos. **Ex:** a tua idade.
@@ -14,11 +14,14 @@ Vamos fazer exatamente o programa dos exemplos agora, mostrando como conversar c
 - **Em Python:** recebemos dados com o comando `input()`. O input é uma função que recebe um dado digitado pelo teclado. Dentro do parênteses é possível colocar um pequeno texto que aparecerá na tela e, logo no final dele, o usuário vai poder enviar o texto do teclado pressionando enter.
 - **Em JavaScript:** recebemos dados com uma biblioteca do Node chamada readline. Uma biblioteca é um conjunto de instruções prontas para um computador. Tu pode pensar numa biblioteca como uma coleção de algoritmos já feitos por outra pessoa. Para importar a biblioteca, nós usamos o comando `require()`. E dessa biblioteca, nós tiramos o comando `readline.question()`, que daí sim funciona que nem o Python e atribui o texto que o usuário digitar.
 
+> [!TIP]
+> Caso require não esteja instalado em sua máquina e ele acusar um erro de biblioteca inexistente, é possível instalar digitando tanto no bash, como no cmd o comando `npm install require-sync`.
+
 > [!NOTE]
 > É importante notar que as duas entradas entram como texto, texto (símbolos) no computador. Nós vamos precisar transformar os símbolos dos números em números de verdade para o computador conseguir fazer os cálculos.
 
 ## PROCESSAMENTO
-Nas duas linguagens, o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa váriavel para depois imprimir isso na tela. 
+Nas duas linguagens, o processamento desse programa vai ser igual. Nós vamos fazer `dataUsuario - dataAtual` e guardar isso numa variável para depois imprimir isso na tela. 
 
 ## SAÍDA DE DADOS
 - **Em Python:** usamos o comando `print()` para imprimir coisas no terminal. Vamos colocar dentro dos parênteses o que queremos imprimir. 
@@ -31,9 +34,9 @@ E daí, em cada linguagem, o programa vai ficar assim:
 ```py
 # Para fazer um comentário em Python utilizamos uma # no ínicio da linha. Comentários são textos ignorados pelo interpretador. 
 
-dataUsuario = int(input("Digite seu ano de nascimento: ")) # Aqui nós fazemos 3 coisas. O input() para receber os dados, que vem por padrão em texto. O int() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na váriavel dataUsuario.
+dataUsuario = int(input("Digite seu ano de nascimento: ")) # Aqui nós fazemos 3 coisas. O input() para receber os dados, que vem por padrão em texto. O int() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na variável dataUsuario.
 idade = 2026 - dataUsuario # Fazemos a diferença entre 2026 e a dataUsuario para saber a idade do usuário e guardamos esse valor na variável idade para imprimir isso depois. 
-print(idade) # Imprimimos o valor da váriavel idade.
+print(idade) # Imprimimos o valor da variável idade.
 ```
 Teste isso no seu Python digitando qualquer ano.
 
@@ -42,9 +45,9 @@ Teste isso no seu Python digitando qualquer ano.
 // Para fazer um comentário em JS utilizamos duas / no ínicio da linha. Comentários são textos ignorados pelo interpretador. 
 
 let readline = require('readline-sync'); // Importamos a biblioteca readline-sync e atribuimos a ele o seu nome simplificado: readline. Ela vem por padrão no Node. Dela, vamos usar o algoritimo question. Por isso há um ponto entre readline e question. É a question da readline.
-let dataUsuario = parseInt(readline.question("Digite seu ano de nascimento: ")); // Aqui nós fazemos 3 coisas. O question() para receber os dados, que vem por padrão em texto. O parseInt() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na váriavel dataUsuario.
+let dataUsuario = parseInt(readline.question("Digite seu ano de nascimento: ")); // Aqui nós fazemos 3 coisas. O question() para receber os dados, que vem por padrão em texto. O parseInt() para transformar os simbólos do texto em números inteiros. E só então guardamos isso na variável dataUsuario.
 let idade = 2026 - dataUsuario; // Fazemos a diferença entre 2026 e a dataUsuario para saber a idade do usuário e guardamos esse valor na variável idade para imprimir isso depois. 
-console.log(idade); // Imprimimos o valor da váriavel idade.
+console.log(idade); // Imprimimos o valor da variável idade.
 ```
 Teste isso no seu JS digitando qualquer ano.
 
