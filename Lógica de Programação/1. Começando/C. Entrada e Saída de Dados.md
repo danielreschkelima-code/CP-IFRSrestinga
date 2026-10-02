@@ -67,7 +67,7 @@ Essas situações vão ocorrer cotidianamente no curso, pois Python é uma lingu
 ---
 
 ## RESUMO DOS COMANDOS
-| Python | JavaScript | Funcionamento na Língua Humana |
+| Python | JavaScript | Funcionamento |
 | :--- | :--- | :--- |
 | `#` | `//` | **Comentário:** Escreve um texto que é ignorado pelo computador, usado apenas para explicar o código. |
 | `input()` | `readline.question()` | **Entrada de dados:** Exibe uma mensagem na tela e captura o texto digitado pelo usuário. |
