@@ -12,7 +12,7 @@ O que o programa iria fazer? Óbvio:
 
 3. **_Então coloco ele no forno._**
 
-Tudo certo né? Mas aquele bolo ele torra e fica preto e pega fogo. Ele já estava assado desde o primeiro passo. Precisamos tomar cuidado com isso. Um bolo pronto não pode ir pro forno duas vezes, então essas proposições não funcionam pra gente. Nós precisamos colocar uma lógica coerente, que nunca deixe um bolo já assado ir para o forno:
+Tudo certo, né? Mas aquele bolo ele torra e fica preto e pega fogo. Ele já estava assado desde o primeiro passo. Precisamos tomar cuidado com isso. Um bolo pronto não pode ir pro forno duas vezes, então essas proposições não funcionam pra gente. Nós precisamos colocar uma lógica coerente, que nunca deixe um bolo já assado ir para o forno:
 
 1. _Todo o bolo cru vai no forno._
 2. _Tenho um bolo e ele está cru._
