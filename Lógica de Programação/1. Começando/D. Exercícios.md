@@ -1,5 +1,5 @@
 # Exercícios 
-Para treinar um pouco de lógica, funcionamento de algoritimos e entrada e saída de dados.
+Para treinar um pouco de lógica, funcionamento de algoritimos e entrada e saída de dados. Só veja as solução se estritamente necessário.
 
 ## **Exercício 1**
 Sempre que criamos um algoritmo, pensamos em **Entrada, Processamento e Saída**. Imagine a balança do caixa de um supermercado quando você vai comprar tomates. O sistema da balança é um computador rodando um algoritmo simples. Ela fornece um preço com base no peso.
@@ -50,7 +50,7 @@ A lógica da troca seria:
 2. Despeje o leite do Copo B no Copo A (Agora o Copo B está vazio e o A tem leite).
 3. Despeje o café do Copo C no Copo B.
 
-> [!NOTE] 
+> [!NOTE]
 > Na programação, frequentemente usamos essa lógica de criar uma terceira variável "vazia" temporária apenas para conseguir trocar os valores de duas variáveis de lugar sem perder os dados.
 </details>
 
