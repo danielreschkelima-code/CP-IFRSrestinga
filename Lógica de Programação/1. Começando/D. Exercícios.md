@@ -52,6 +52,7 @@ A lógica da troca seria:
 
 > [!NOTE]
 > Na programação, frequentemente usamos essa lógica de criar uma terceira variável "vazia" temporária apenas para conseguir trocar os valores de duas variáveis de lugar sem perder os dados.
+
 </details>
 
 ---
