@@ -61,7 +61,7 @@ Em JavaScript, podemos usar funções nativas (`Number()`, `String()`) ou métod
 > A função nativa `typeof()` mostra o tipo de dado que uma variável possui.
 
 > [!TIP]
-> É possível imprimir mais de uma coisa com o `print()` colocando **,** entre os elementos a serem impressos.
+> É possível imprimir mais de uma coisa com o `console.log()` colocando **,** entre os elementos a serem impressos.
 
 ```js
 // Temos um dado em formato de texto (String)
