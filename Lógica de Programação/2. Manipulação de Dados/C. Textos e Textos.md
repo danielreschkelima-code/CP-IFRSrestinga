@@ -24,7 +24,7 @@ Podemos anexar o valor de uma variável em uma string a partir de dois métodos 
     frase = f"Olá, {nome}"
     print(frase) # print(f"Olá, {nome}") também funcionária
     ```
-  - **Em JS:** O Templete literals usa o formato ` `Qualquer texto ${nomeVariavel}` `. Note que usamos crase em vez de aspas para declarar a string nesse caso. Exemplo:
+  - **Em JS:** O Templete literals usa o formato ``Qualquer texto ${nomeVariavel}``. Note que usamos crase em vez de aspas para declarar a string nesse caso. Exemplo:
     ```js
     let nome = "Maria";
     let frase = `Olá, ${nome}`;
@@ -33,6 +33,21 @@ Podemos anexar o valor de uma variável em uma string a partir de dois métodos 
 
 ## FUNÇÕES NATIVAS
 Como num editor de texto padrão, existem algumas funções nativas para o manuseio de texto em Python e em JS. Eles são úteis para trabalhar com textos em programação. Tu não precisa decorar eles, mas é bom saber que eles existem. Veja uma lista dos principais:
+
+| Operação / Funcionalidade | Python | JavaScript | Descrição |
+| :--- | :--- | :--- | :--- |
+| **Tamanho da String** | `len(texto)` | `texto.length` | Retorna a quantidade total de caracteres do texto. |
+| **Maiúsculas** | `texto.upper()` | `texto.toUpperCase()` | Converte todos os caracteres para letras maiúsculas. |
+| **Minúsculas** | `texto.lower()` | `texto.toLowerCase()` | Converte todos os caracteres para letras minúsculas. |
+| **Remover Espaços** | `texto.strip()` | `texto.trim()` | Remove os espaços em branco no início e no final do texto. |
+| **Substituir Texto** | `texto.replace("antigo", "novo")` | `texto.replace("antigo", "novo")` | Substitui ocorrências de um trecho de texto por outro. |
+| **Dividir (Split)** | `texto.split("separador")` | `texto.split("separador")` | Divide a string em uma lista (Python) ou array (JS) com base em um separador. |
+| **Juntar (Join)** | `"separador".join(lista)` | `array.join("separador")` | Unifica os elementos de uma lista/array em uma única string. |
+| **Verificar Presença** | `"termo" in texto` | `texto.includes("termo")` | Retorna `True`/`true` se o termo estiver presente dentro da string. |
+| **Início do Texto** | `texto.startswith("termo")` | `texto.startsWith("termo")` | Verifica se a string começa com o trecho especificado. |
+| **Fim do Texto** | `texto.endswith("termo")` | `texto.endsWith("termo")` | Verifica se a string termina com o trecho especificado. |
+| **Localizar Posição** | `texto.find("termo")` | `texto.indexOf("termo")` | Retorna o índice (posição) do termo ou `-1` se não for encontrado. |
+| **Repetir String** | `texto * n` | `texto.repeat(n)` | Repete o texto o número `n` de vezes especificado. |
 
 ---
 Daniel Reschke, 5 de outubro de 2026.
