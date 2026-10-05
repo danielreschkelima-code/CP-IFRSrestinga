@@ -1,4 +1,4 @@
-# VARIÁVEIS
+# Variáveis
 Variáveis são **pedaços da memória do computador que a gente dá um nome para conseguir guardar dados neles**. Elas são muito úteis pois permitem com que a gente faça o computador se lembrar de coisas que a gente queira. Sobre elas, o professor Guanabrara, um programador brasileiro que tem um [canal no Youtube](https://www.youtube.com/@cursoemvideo), faz uma analogia bem interessante:
 
 > Pense nelas como se você estivesse em um estacionamento de algum lugar. Cada vaga de cada veículo seria um pedaço da memória do computador. E o código da vaga seria a variável, um indentificador. 
