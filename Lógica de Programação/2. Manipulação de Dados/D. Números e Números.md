@@ -1,5 +1,5 @@
 # Números e Números
-Números são números. Assim como a gente, os computadores conseguem fazer cálculos com ele. Mas, nós precisamos ter cuidado na hora de interpretar os tipos de dados principalmente quando estamos lidando com os números. 
+Números são números. Assim como a gente, os computadores conseguem fazer cálculos com ele. Mas, nós precisamos ter cuidado na hora de interpretar os tipos de dados, principalmente quando estamos lidando com os números. 
 
 Por exemplo, veja o que acontece com esses códigos: o que tu acha que vai ser impresso no final?
 - **Python:**
@@ -14,7 +14,7 @@ let impressao = 7 + 3
 console.log(impressao)
 ```
 
-Tá, foi como o esperado. 7 + 3 = 10. 
+Tá, foi como o esperado. `7 + 3 = 10`. 
 
 Mas, e agora? O que vai ser impresso?
 - **Python:**
@@ -58,7 +58,7 @@ Testou com um número quebrado? Pois é, no valor total ele saiu só com a parte
 - **Use `int()` (Python) / `parseInt()` (JS)**: quando as casas decimais não importarem e não fazer sentido gastar poder computacional para isso. Ex: o usuário digitar sua idade
 - **Use `float()` (Python) / `parseFloat()` (JS)**: quando as casas decimais foram tão importantes que vale a pena gastar mais recursos computacionais para isso. Ex: dinheiro.
 
-## BIBLIOTECA MATEMÁTICA
+## FUNÇÕES NATIVAS
 Nas duas linguagens existem funções nativas. Vale a pena dar uma olhada:
 
 | Operação | Python | JavaScript | Descrição |
