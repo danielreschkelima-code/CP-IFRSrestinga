@@ -6,13 +6,13 @@ Realizam operações matemáticas.
 
 | Operação | Python | JavaScript | Descrição / Funcionamento | Exemplo |
 | :--- | :--- | :--- | :--- | :--- |
-| **Adição** | `+` | `+` | Soma dois valores | `5 + 2 $\rightarrow$ 7` |
-| **Subtração** | `-` | `-` | Subtrai o segundo valor do primeiro | `5 - 2 $\rightarrow$ 3` |
-| **Multiplicação** | `*` | `*` | Multiplica dois valores | `5 * 2 $\rightarrow$ 10` |
-| **Divisão** | `/` | `/` | Divisão exata (retorna ponto flutuante) | `5 / 2 $\rightarrow$ 2.5` |
-| **Módulo** | `%` | `%` | Retorna o resto da divisão inteira | `$5 \% 2 $\rightarrow$ 1` |
-| **Exponenciação** | `**` | `**` | Eleva a base ao expoente | `5^{2} $\rightarrow$ 25` |
-| **Divisão Inteira** | `//` | *Inexistente* (`Math.floor(a / b)`) | Retorna o quociente inteiro (descarta os decimais) | Python: `5 // 2 $\rightarrow$ 2` |
+| **Adição** | `+` | `+` | Soma dois valores | `5 + 2` $\rightarrow$ `7` |
+| **Subtração** | `-` | `-` | Subtrai o segundo valor do primeiro | `5 - 2` $\rightarrow$ `3` |
+| **Multiplicação** | `*` | `*` | Multiplica dois valores | `5 * 2` $\rightarrow$ `10` |
+| **Divisão** | `/` | `/` | Divisão exata (retorna ponto flutuante) | `5 / 2` $\rightarrow$ `2.5` |
+| **Módulo** | `%` | `%` | Retorna o resto da divisão inteira | `$5 \% 2` $\rightarrow$ `1` |
+| **Exponenciação** | `**` | `**` | Eleva a base ao expoente | `5^{2}` $\rightarrow$ `25` |
+| **Divisão Inteira** | `//` | *Inexistente* (`Math.floor(a / b)`) | Retorna o quociente inteiro (descarta os decimais) | Python: `5 // 2` $\rightarrow$ `2` |
 
 Dentro deles, ainda existe um subgrupo dos incrementadores, que pegam um valor pronto, fazem uma operação artimética e a unem com eles no resultado.
 
