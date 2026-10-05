@@ -32,6 +32,7 @@ Podemos anexar o valor de uma variável em uma string a partir de dois métodos 
     ```
 
 ## FUNÇÕES NATIVAS
+Como num editor de texto padrão, existem algumas funções nativas para o manuseio de texto em Python e em JS. Eles são úteis para trabalhar com textos em programação. Tu não precisa decorar eles, mas é bom saber que eles existem. Veja uma lista dos principais:
 
 ---
 Daniel Reschke, 5 de outubro de 2026.
