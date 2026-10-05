@@ -1,7 +1,7 @@
 # Operadores
 Em resumo, operadores são **símbolos especiais que dizem ao computador para realizar cálculos, comparações ou manipulações de dados.** Nós usamos eles quando queremos manipular dados. Existem 4 tipos de operadores, os aritiméticos, os de atribuição, os comparativos e os lógicos.
 
-# ARITIMÉTICOS
+## ARITIMÉTICOS
 Realizam operações matemáticas.
 
 | Operação | Python | JavaScript | Descrição / Funcionamento | Exemplo |
@@ -16,7 +16,7 @@ Realizam operações matemáticas.
 
 Dentro deles, ainda existe um subgrupo dos incrementadores, que pegam um valor pronto, fazem uma operação artimética e a unem com eles no resultado.
 
-| Operador / Sintaxe | Python | JavaScript | Descrição / Funcionamento | Exemplo de Uso |
+| Operador | Python | JavaScript | Descrição / Funcionamento | Exemplo de Uso |
 | :--- | :--- | :--- | :--- | :--- |
 | **Incremento Pós-fixado** | *Inexistente* | `x++` | Retorna o valor atual de $x$ e depois incrementa $+1$ | JS: `let a = x++;` |
 | **Incremento Pré-fixado** | *Inexistente*\* | `++x` | Incrementa $+1$ no valor de $x$ e depois retorna o novo valor | JS: `let a = ++x;` |
@@ -26,14 +26,14 @@ Dentro deles, ainda existe um subgrupo dos incrementadores, que pegam um valor p
 > [!TIP]
 > É possível fazer isso para cada operação matemática (+ - / *).
 
-# DE ATRIBUIÇÃO
+## DE ATRIBUIÇÃO
 É o de `=` (cuidado para não confundir com `==`). Ele atribui um valor a uma variável.
 
 
-# COMPARATIVOS
+## COMPARATIVOS
 Eles fazem uma comparação e sempre geram um dos dois resultados: Verdadeiro ou Falso.
 
-| Operação / Nome | Python | JavaScript | Descrição / Funcionamento | Exemplo |
+| Operação | Python | JavaScript | Descrição / Funcionamento | Exemplo |
 | :--- | :--- | :--- | :--- | :--- |
 | **Igualdade Valor/Tipo** | `==` | `===` | Compara se os valores e os tipos são estritamente iguais. | `5 === "5"` $\rightarrow$ `false` |
 | **Igualdade Ampla** | *Inexistente* | `==` | Compara valores convertendo tipos automaticamente (coerção). | JS: `5 == "5"` $\rightarrow$ `true` |
