@@ -38,7 +38,7 @@ Sim! O bolo **foi comprado**, porque eu estava com fome e ele não era de chocol
 > Em Python, `True` e `False` são escritos com a primeira letra maiúscula. Em JS, `true` e `false` são escritos com tudo em minúsculo.
 
 ## ELSE
-Tá, mas e se o bolo **não** for de chocolate? E se eu **não** estiver com fome? Daí, que nós precisamos do `else`. Else, traduzindo pro, português é a mesma coisa do que senão. As coisas dentro do `else` só vão acontecer se as condições esperadas forem falsas, ou seja, se o `if` não acontecer. 
+Tá, mas e se o bolo **não** for de chocolate? E se eu **não** estiver com fome? Daí, que nós precisamos do `else`. Else, traduzindo para o português, é a mesma coisa do que senão. As coisas dentro do `else` só vão acontecer se as condições esperadas forem falsas, ou seja, se o `if` não acontecer. 
 Se eu estiver com fome e o bolo não for de chocolate, eu compro o bolo. Senão, eu não compro o bolo.
 
 - **Em Python:**
