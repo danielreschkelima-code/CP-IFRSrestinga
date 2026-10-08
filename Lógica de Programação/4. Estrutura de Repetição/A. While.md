@@ -2,13 +2,13 @@
 _A tradução de while para português é **enquanto**._
 
 Imagine ter que contar até 1000. É um trabalhão, né? Agora, imagine fazer um computador ter que contar até mil. É pior ainda! São pelo menos 1000 linhas de código bruto. 
-Mas, acontece que estudando programação, evitamos repetir trabalho manual a todo custo. É o computador que deve se preucupar com isso. Então, para facilitar as coisas para gente, podemos deixar um computador fazer toda a tarefa repetitiva, como contar até mil por exemplo. Para isso, nós criamos um laço de repetição, que repetira comandos que queremos, tipo o de imprimir mil vezes. 
+Mas, acontece que, estudando programação, evitamos repetir trabalho manual a todo custo. É o computador que deve se preucupar com isso. Esse tipo de cenário acontece muitas vezes. Então, para facilitar as coisas, podemos deixar um computador fazer toda a tarefa repetitiva, como contar até mil por exemplo. Para isso, nós criamos um laço de repetição, que repetirá comandos que queremos, tipo o de imprimir mil vezes. 
 E como fazemos isso? O que uma pessoa precisa fazer para contar até mil? Ela precisa de 3 coisas:
 1. **Início:** De onde começo a contar? (ex: 0)
 2. **Condição de parada:** Até quando eu continuo? (ex: enquanto for menor ou igual a 1000)
 3. **Passo:** Como eu conto? (ex: de 1 em 1)
 
-O computador também funciona assim, que nem a gente. Enquanto a condição de parada não for acionada, ele repetirá tudo que pedirmos para ele. Observe:
+O computador também funciona assim, que nem a gente. Enquanto a condição de parada não for acionada, ele repetirá tudo que pedirmos. Observe:
 
 - **Em Python:**
 ```py
@@ -32,7 +32,7 @@ console.log(`Esse print tá fora do while. Viu, quando contagem chegou a 1001 a 
 > [!TIP]
 > O while vai repetir todo o bloco de código enquanto a condição for verdadeira. Em ordem, o computador segue essa ordem: teste da condição; se for verdade, faz tudo, até o final, do que tem dentro do bloco; retesta a condição. Ele faz isso até a condição ser falsa no reteste.
 
-Mas dá pra fazer outras coisas além de contar com laços de repetição. Imagine que somos um professor e queremos tirar a média da turma de uma prova. Como fariamos isso? É uma média, nós somamos todas as notas e dividimos pela quantidade de quantidade de alunos. Podemos ir somando `notaA + notaB + notaC` por exemplo, mas iriamos encontrar um grande problema:
+Mas dá pra fazer outras coisas além de contar com laços de repetição. Imagine que somos um professor e queremos tirar a média da turma de uma prova. Como fariamos isso? É uma média: nós somamos todas as notas e dividimos pela quantidade de quantidade de alunos. Podemos ir somando `notaA + notaB + notaC` por exemplo, mas iriamos encontrar um grande problema:
 
 Como saberiamos quantos alunos existem? Quantas notas existem? Podemos fazer um teste para cada número, perguntar pro computador para cada número inteiro `if quantidade alunos == 1, elif... == 2, elif... == 3,elif... == infinito`. Isso é impossível, trabalhoso e ineficiente. 
 
