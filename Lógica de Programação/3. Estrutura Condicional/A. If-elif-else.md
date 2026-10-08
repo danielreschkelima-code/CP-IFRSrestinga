@@ -35,7 +35,7 @@ Sim! O bolo **foi comprado**, porque eu estava com fome e ele não era de chocol
 > Repare que a última linha do código sempre é executada, mesmo que o bolo seja de chocolate e mesmo que tu não esteja com fome. Isso acontece pois ela está fora do bloco de código do `if`. 
 
 > [!TIP]
-> Em Python, `True` e `False` são escritos com a primeira letra maiúscula. Em JS, `true` `false` são escritos com tudo em minúsculo.
+> Em Python, `True` e `False` são escritos com a primeira letra maiúscula. Em JS, `true` e `false` são escritos com tudo em minúsculo.
 
 ## ELSE
 Tá, mas e se o bolo **não** for de chocolate? E se eu **não** estiver com fome? Daí, que nós precisamos do `else`. Else, traduzindo pro, português é a mesma coisa do que senão. As coisas dentro do `else` só vão acontecer se as condições esperadas forem falsas, ou seja, se o `if` não acontecer. 
