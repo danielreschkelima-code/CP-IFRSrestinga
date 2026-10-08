@@ -109,41 +109,41 @@ Viu, colocando o tamanho da lista como condição de parada e não o índice fin
 
 ## ADICIONANDO E REMOVENDO ELEMENTOS
 - Podemos adicionar elementos com...
- - **Em Python:** A função `append()`:
- ```py
- lista_supermercado = ["Maçã", "Banana", "Bergamota"]
- print(lista_supermercado)
- lista_supermercado.append("Cereja") # Adicionando elemento "Cereja" no final da lista.
- print(lista_supermercado)
- ```
+    - **Em Python:** A função `append()`:
+    ```py
+    lista_supermercado = ["Maçã", "Banana", "Bergamota"]
+    print(lista_supermercado)
+    lista_supermercado.append("Cereja") # Adicionando elemento "Cereja" no final da lista.
+    print(lista_supermercado)
+    ```
 
- - **Em JS:** A função `push()`:
- ```js
- let listaSupermercado = ["Maçã", "Banana", "Bergamota"];
- console.log(listaSupermercado);
- listaSupermercado.append("Cereja"); // Adicionando elemento "Cereja" no final da lista.
- console.log(listaSupermercado);
- ```
+    - **Em JS:** A função `push()`:
+    ```js
+    let listaSupermercado = ["Maçã", "Banana", "Bergamota"];
+    console.log(listaSupermercado);
+    listaSupermercado.append("Cereja"); // Adicionando elemento "Cereja" no final da lista.
+    console.log(listaSupermercado);
+    ```
 - Podemos deletar elementos com...
- - **Em Python:** A função pop(). Ela também retorna o elemento retirado:
- ```py
- lista_supermercado = ["Maçã", "Banana", "Bergamota"]
- print(lista_supermercado)
- lista_supermercado.pop(0) # Removendo elemento de índice 0 (Maçã).
- print(lista_supermercado)
- print(lista_supermercado.pop()) # Remove o último elemento (pop() quando omitido um valor retira o último elemento) e o imprime
- print(lista_supermercado) # imprime a lista só com o elemento restante.
- ```
+    - **Em Python:** A função pop(). Ela também retorna o elemento retirado:
+    ```py
+    lista_supermercado = ["Maçã", "Banana", "Bergamota"]
+    print(lista_supermercado)
+    lista_supermercado.pop(0) # Removendo elemento de índice 0 (Maçã).
+    print(lista_supermercado)
+    print(lista_supermercado.pop()) # Remove o último elemento (pop() quando omitido um valor retira o último elemento) e o imprime
+    print(lista_supermercado) # imprime a lista só com o elemento restante.
+    ```
 
-- **Em JS:** A função pop(). Ela também retorna o elemento retirado:
- ```js
- let listaSupermercado = ["Maçã", "Banana", "Bergamota"];
- console.log(listaSupermercado);
- listaSupermercado.pop(0); // Removendo elemento de índice 0 (Maçã).
- console.log(listaSupermercado);
- console.log(listaSupermercado.pop()); // Remove o último elemento (pop() quando omitido um valor retira o último elemento) e o imprime.
- console.log(listaSupermercado); // imprime a lista só com o elemento restante.
- ```
+    - **Em JS:** A função pop(). Ela também retorna o elemento retirado:
+    ```js
+    let listaSupermercado = ["Maçã", "Banana", "Bergamota"];
+    console.log(listaSupermercado);
+    listaSupermercado.pop(0); // Removendo elemento de índice 0 (Maçã).
+    console.log(listaSupermercado);
+    console.log(listaSupermercado.pop()); // Remove o último elemento (pop() quando omitido um valor retira o último elemento) e o imprime.
+    console.log(listaSupermercado); // imprime a lista só com o elemento restante.
+    ```
 
 ## FUNÇÕES NATIVAS
 Além disso, existem várias funções nativas que permitem o manejo de listas. Alguns dos principais exemplos são:
