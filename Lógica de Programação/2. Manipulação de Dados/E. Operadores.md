@@ -1,5 +1,5 @@
 # Operadores
-Em resumo, operadores são **símbolos especiais que dizem ao computador para realizar cálculos, comparações ou manipulações de dados.** Nós usamos eles quando queremos manipular dados. Existem 4 tipos de operadores, os aritiméticos, os de atribuição, os comparativos e os lógicos.
+Em resumo, operadores são **símbolos especiais que dizem ao computador para realizar cálculos, comparações ou manipulações de dados.** Nós usamos eles quando queremos manipular dados. Existem 4 tipos de operadores: os aritiméticos, os de atribuição, os comparativos e os lógicos.
 
 ## ARITIMÉTICOS
 Realizam operações matemáticas.
