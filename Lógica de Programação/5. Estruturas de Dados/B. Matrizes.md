@@ -1,5 +1,5 @@
 # Matrizes
-Matrizes são listas que tem listas dentro delas. Exemplo:
+Matrizes são **listas que tem listas dentro delas**. Exemplo:
 - **Python:**
 ```py
 Horta = [

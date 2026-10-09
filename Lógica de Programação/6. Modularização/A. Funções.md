@@ -42,7 +42,7 @@ let area3 = largura3 * altura3;
 console.log(`Área do terreno 3: ${area3}`);
 ```
 
-Mas é exatamente nesse tipo de situação que a utilidade de função fica clara. Lembra e relembra que sempre em programação nós poupamos esforço. Em todos os terrenos, nós temos que fazer a mesmíssima coisa: calcular a área. Então criamos uma função para calcular a área, uma generalização, que deixa o código mais limpo e reutilízavel. Os dois códigos fazem a mesma coisa, mas esse vai ser bem menos trabalhoso, note:
+Mas é exatamente nesse tipo de situação que a utilidade de função fica clara. Lembra e relembra que sempre em programação nós poupamos esforço. Em todos os terrenos, nós temos que fazer a mesmíssima coisa: calcular a área. Então vamos ensinar pro computador esse padrão. Criamos uma função para calcular a área, uma generalização, que deixa o código mais limpo e reutilízavel. Os dois códigos fazem a mesma coisa, mas esse vai ser bem menos trabalhoso. Note:
 
 - **Python:**
 ```py
@@ -79,7 +79,7 @@ Enfim, basicamente, uma função é um bloco de código nomeado e reutilizável 
 - Acionamos uma função invocando o nome dela `nomeFuncao()`. E quando houver parâmetros, colocamos os valores deles dentro dos parênteses. Isso é o que acontece quando imprimimos algo na tela com `print()` e com `console.log()` por exemplo.
 
 ## PARÂMETROS
-Uma função pode ou não receber parâmetros. Parâmetros são variáveis que teram valores injetados na hora do acionamento da função. Vamos observar isso numa função de soma:
+Uma função **pode ou não** receber parâmetros. Parâmetros são **variáveis que teram valores injetados na hora do acionamento da função**. Vamos observar isso numa função de soma:
 - **Python:**
 ```py
 def somar(a, b):
@@ -102,9 +102,9 @@ console.log(somar(10000, 2001320));
 
 ## COM OU SEM RETURN?
 Uma função tem dois tipos principais:
-- As com `return`: essas retornam algum valor para o usuário. Ex: a de somar.
+- **As com `return`:** essas retornam algum valor para o usuário. Ex: a de somar.
 
-- As sem `return`: essas só fazem o que tem em seu bloco de código sem retornar nada. Ex:
+- **As sem `return`:** essas só fazem o que tem em seu bloco de código sem retornar nada. Ex:
     - **Python:**
     ```py
     def saudar(nome):

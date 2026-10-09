@@ -1,5 +1,5 @@
 # Dicionários e Objetos
-Dicionários (em Python) e Objetos (em JS) são estruturas de dados. Eles são muito similares a listas, mas, em vez de referenciarem um elementro através de um índice, eles utilizam chaves para tanto. Isso faz eles ficarem realmente muito parecidos com dicionários, onde cada palavra resgata um valor específico. Sua sintaxe básica é:
+Dicionários (em Python) e Objetos (em JS) são estruturas de dados. Eles são muito similares a listas, mas, em vez de referenciarem um elemento através de um índice, eles utilizam chaves para tanto. Isso faz eles ficarem realmente muito parecidos com dicionários, onde cada palavra resgata um valor específico. Sua sintaxe básica é:
 - **Em Python:**
 ```py
 dicionario = {
@@ -38,7 +38,7 @@ let dicionarioValores = {
 ```
 
 ## ACESSANDO ITENS
-Acessamos um item com o nome do dicionário e o nome de sua chave: 
+Acessamos um item com o nome do dicionário/objeto e o nome de sua chave: 
 **Em Python:** `nome_dicionario["nome_chave"]`
 ```py
 dicionario_valores = {
@@ -49,7 +49,7 @@ dicionario_valores = {
 print(f"Valor maçã por kilograma: {dicionario_valores["maca"]}") 
 ```
 
-**Em JS:** `nomeDicionario.nomeChave`
+**Em JS:** `nomeObjeto.nomeChave`
 ```js
 let dicionarioValores = {
     maca: 4.5,
@@ -69,7 +69,7 @@ Podemos percorrer dicionários/objetos utilizando o comando `for`. Utilize o dic
         print(chave)
     ```
 
-    - **JS:** Estrutura `for (const chave of Object.keys(dados))`. Object.keys é uma função nativa dos objetos que pega as chaves do objeto.
+    - **JS:** Estrutura `for (const chave of Object.keys(objeto))`. Object.keys é uma função nativa dos objetos que pega as chaves do objeto.
     ```js
     for (const chave of Object.keys(dicionarioValores)) {
         console.log(chave);
@@ -89,7 +89,7 @@ Podemos percorrer dicionários/objetos utilizando o comando `for`. Utilize o dic
         print(valor)
     ```
 
-    - **JS:** Estrutura `for (const valor of Object.values(dados))`. Object.values é uma função nativa dos objetos que pega os valores das chaves do objeto.
+    - **JS:** Estrutura `for (const valor of Object.values(objeto))`. Object.values é uma função nativa dos objetos que pega os valores das chaves do objeto.
     ```js
     for (const valor of dicionario_valores.values():
         print(valor)
@@ -102,7 +102,7 @@ Podemos percorrer dicionários/objetos utilizando o comando `for`. Utilize o dic
         print(f'{chave}: {valor}')
     ```
 
-    - **JS:** Estrutura `for (const [chave, valor] of Object.entries(dados))`. Object.entries é uma função nativa de objetos que pega os valores das chaves e as chaves do objeto.
+    - **JS:** Estrutura `for (const [chave, valor] of Object.entries(objeto))`. Object.entries é uma função nativa de objetos que pega os valores das chaves e as chaves do objeto.
     ```py
     for (const [chave, valor] of Object.entries(dicionarioValores)) {
         console.log(`${chave}: ${valor}`);
@@ -110,7 +110,7 @@ Podemos percorrer dicionários/objetos utilizando o comando `for`. Utilize o dic
     ```
 
 ## CRIANDO E DELETANDO ITENS
-Para criar itens em um dicionário, usamos...
+Para criar itens em um dicionário/objeto, usamos...
 
 - **Em Python:**
 ```py

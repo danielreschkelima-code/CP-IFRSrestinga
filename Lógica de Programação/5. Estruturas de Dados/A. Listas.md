@@ -17,7 +17,7 @@ console.log("Lista de supermercado: ");
 console.log(`${Item1} \n ${Item2} \n ${Item3}`); // \n imprime um novo
 ```
 Mas isso é muito complicado. Precisamos criar uma nova variável para cada item da lista e precisamos repetir todos eles na hora da impressão. 
-Assim, surge o conceito de listas. Listas são estruras de dados. Estruturas de dados reúnem vários dados em um dado maior. Uma lista é uma lista, uma listagem dados, de qualquer tipo até mesmo misturados. Para acessar cada item, é criado um índice que o represente, tornando possível o seu acesso. 
+Assim, surge o conceito de listas. Listas são estruras de dados. Estruturas de dados reúnem vários dados em um dado maior. Uma lista **é uma lista, uma listagem dados,** de qualquer tipo até mesmo misturados. Para acessar cada item, é criado um índice que o represente, tornando possível o seu acesso. 
 Aquela lista do nosso supermercado vira:
 
 - **Em Python:** `lista_supermercado = ["Maçã", "Banana", "Bergamota"]`
@@ -105,7 +105,7 @@ for (let i = 0; i < listaSupermercado.length; i++) { // i é o índice.
 }
 ```
 
-Viu, colocando o tamanho da lista como condição de parada e não o índice final garante que o for percorra todos os elementos para qualquer tamanho de lista.
+Viu, colocando o tamanho da lista como condição de parada e não o índice final garante que o `for` percorra todos os elementos para qualquer tamanho de lista.
 
 ## ADICIONANDO E REMOVENDO ELEMENTOS
 - Podemos adicionar elementos com...
@@ -135,7 +135,7 @@ Viu, colocando o tamanho da lista como condição de parada e não o índice fin
     print(lista_supermercado) # imprime a lista só com o elemento restante.
     ```
 
-    - **Em JS:** A função pop(). Ela também retorna o elemento retirado:
+    - **Em JS:** A função `pop()`. Ela também retorna o elemento retirado:
     ```js
     let listaSupermercado = ["Maçã", "Banana", "Bergamota"];
     console.log(listaSupermercado);
