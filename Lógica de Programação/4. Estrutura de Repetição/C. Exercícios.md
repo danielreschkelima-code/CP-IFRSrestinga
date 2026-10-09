@@ -1,3 +1,8 @@
+# Exercícios
+Tente fazer os exercícios sem olhar a solução. Eles vão te ajudar a entender melhor os loops.
+
+---
+
 ## **Exercício 1**
 O laço de repetição adequado depende da previsibilidade da parada. Analise as três situações abaixo:
 
